@@ -8,7 +8,94 @@ body{
     margin:3;
 
 }
+}
 .container{
-    width:80%;
-    margin:auto;
+    width:90%;
+    margin:5px;
+    padding:10px;
+    border:5px rgb(250, 248, 246);
+    border-radius:15px;
+    text-align: center;
+}
+.box-1 h3{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight:800px;
+    font-style:italic;
+    text-decoration: underline plum;
+    text-transform:inherit;
+}
+.box-2 h3{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight:800px;
+    font-style:italic;
+    text-decoration: underline plum;
+    text-transform:inherit;
+}
+    
+.box-2 h4{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight:800px;
+    font-style:italic;
+    text-decoration: underline rgb(253, 253, 253);
+    text-transform:inherit;
+}
+body h1{
+    font-family: cursive;
+    font-weight:1000px;
+    font-style:italic;
+    text-decoration: underline rgb(245, 242, 245);
+    text-transform:inherit;
+    letter: spacing 0.1em;
+    word-spacing: 0.5em;
+    text-align: center;
+} 
+.container h2{
+    font-family: cursive;
+    font-weight:1000px;
+    font-style:italic;
+    text-decoration: underline rgb(245, 242, 245);
+    text-transform:inherit;
+    letter: spacing 0.1em;
+    word-spacing: 0.25em;
+}
+.box-1 ul{
+    list-style:none;
+}
+.box-1 a{
+    text-decoration: none;
+    color: plum;
+}
+.box-1 a:hover{
+    color:lightcoral
+}
+.box-1 a:active{
+    color:lightgreen;
+}
+.box-1 a:visited{
+    color:lightsalmon;
+}
+.box-2 a{
+    text-decoration: none;
+    color: plum;
+}
+.box-2 a:hover{
+    color:lightcoral
+}
+. box-2 a:active{
+    color:lightgreen;
+}
+.box-2 a:visited{
+    color:lightsalmon;
+}
+.block{
+    float:left;
+    width:33.3%;
+    border:1p solid #ccc;
+    padding:10px;
+    box-sizing:border-box;
+}
+img{
+    width; 70px;
+    height: 50px;
+    vertical-align: middle;
 }
